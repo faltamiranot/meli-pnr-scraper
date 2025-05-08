@@ -1,5 +1,5 @@
 
-import { parseCSV } from './parseCsv.js';
+import { parseCSV } from './utils/parseCsv.js';
 import { createClient } from './supabase.js';
 import dotenv from 'dotenv';
 dotenv.config();
